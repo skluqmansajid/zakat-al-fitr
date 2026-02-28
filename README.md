@@ -1,67 +1,85 @@
-# Zakat al-Fitr Guide & Calculator 🌙
+<div align="center">
+  <img src="public/favicon.png" alt="Zakat al-Fitr Logo" width="120" />
+  
+  # 🌙 Zakat al-Fitr Guide & Calculator
+  *Your trusted, interactive guide to fulfilling your Ramadan obligations.*
 
-An elegant, user-friendly tool to help Muslims worldwide understand and calculate their Zakat al-Fitr (Fitrana) obligations easily and accurately. 
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+  [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+</div>
 
-This project aims to spread knowledge about this essential pillar of faith and simplify the calculation process so that everyone can fulfill their religious duties before Eid.
+<br />
 
-## 🌟 Features
+Welcome to the **Zakat al-Fitr Guide & Calculator**! This elegant, user-friendly tool is designed to help Muslims worldwide easily understand and calculate their Zakat al-Fitr (Fitrana) obligations before Eid.
 
-*   **Comprehensive Guide**: Clear, easy-to-understand information about Zakat al-Fitr, backed by Hadith references.
-*   **Target Audience Information**: Explains clearly who is obligated to pay (the head of the household for their dependents).
-*   **Timeline Guidance**: Highlights the correct time to give Zakat al-Fitr (before the Eid prayer).
-*   **Interactive Calculator**: A simple tool allowing users to calculate the exact amount owed based on their location and number of dependents.
-*   **Spiritual Rulings & Rewards**: Educates users on the spiritual purification and social benefits of giving Sadaqat al-Fitr.
-*   **FAQ Section**: Answers common questions about the obligation, missed payments, and accepted forms of payment.
-*   **Responsive Design**: A beautiful, modern UI that works flawlessly on desktop, tablet, and mobile devices.
+---
 
-## 🚀 Technologies Used
+## ✨ Features at a Glance
 
-*   **React**: Front-end framework.
-*   **TypeScript**: For type-safe code.
-*   **Vite**: Fast build tool and development server.
-*   **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-*   **shadcn/ui**: High-quality, accessible UI components.
-*   **Framer Motion**: For smooth, elegant animations.
-*   **Lucide React**: Beautiful, consistent icons.
+*   📖 **Comprehensive Guide**: Clear, easy-to-understand information about Zakat al-Fitr backed by authentic Hadith references.
+*   👨‍👩‍👧‍👦 **Target Audience Information**: Explains exactly *who* is obligated to pay (the head of the household for their dependents).
+*   ⏳ **Timeline Guidance**: An interactive timeline highlighting the correct time to give Zakat al-Fitr (before the Eid prayer).
+*   🧮 **Interactive Calculator**: A simple, lightning-fast tool to calculate the exact amount owed based on country and dependents.
+*   🕌 **Spiritual Rewards**: Educates users on the spiritual purification and social benefits of giving Sadaqat al-Fitr.
+*   ❓ **FAQ Section**: Answers the most common questions about the obligation, missed payments, and accepted forms of payment.
+*   📱 **Responsive & Beautiful**: A modern, animated UI built with Framer Motion that works flawlessly across all devices.
 
-## 💻 Running Locally
+## 🚀 Getting Started
 
-To run this project on your local machine:
+Want to run this project on your local machine? It's easy!
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/zakat-al-fitr.git
-    cd zakat-al-fitr
-    ```
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/skluqmansajid/zakat-al-fitr.git
+cd zakat-al-fitr
+```
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
-    ```
+### 2️⃣ Install dependencies
+Use your favorite package manager:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-3.  **Start the development server:**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    ```
+### 3️⃣ Start the development server
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-4.  **Open in Browser:**
-    Navigate to `http://localhost:8080/` (or the port specified in your terminal).
+### 4️⃣ Open in Browser
+Navigate to `http://localhost:8080/` (or the port specified in your terminal) and watch the magic happen! ✨
+
+## 🛠️ Built With
+
+*   **[React](https://reactjs.org/)** - For building the interactive user interface.
+*   **[TypeScript](https://www.typescriptlang.org/)** - Ensuring type-safe, reliable code.
+*   **[Vite](https://vitejs.dev/)** - Lightning-fast build tool and development server.
+*   **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for beautiful styling.
+*   **[shadcn/ui](https://ui.shadcn.com/)** - High-quality, accessible UI components.
+*   **[Framer Motion](https://www.framer.com/motion/)** - The engine behind those smooth, elegant animations.
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements, find a bug, or want to add translations or more country-specific calculation data, please feel free to open an issue or submit a Pull Request.
+We would love your help in making this tool even better! 
+Whether it's adding translations, updating country-specific calculation data, or squashing bugs, **Contributions are always welcome!**
+
+*   Please open an **Issue** to discuss proposed changes.
+*   Submit a **Pull Request** for any improvements!
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License. Feel free to use it, share it, and learn from it.
 
 ---
-*May Allah accept our fasting, our prayers, and our charity.*
+<div align="center">
+  <i>May Allah accept our fasting, our prayers, and our charity.</i> 🤲
+</div>
