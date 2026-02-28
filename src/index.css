@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 96%;
+    --foreground: 0 0% 17%;
+
+    --card: 40 33% 98%;
+    --card-foreground: 0 0% 17%;
+
+    --popover: 40 33% 98%;
+    --popover-foreground: 0 0% 17%;
+
+    --primary: 148 60% 26%;
+    --primary-foreground: 40 33% 96%;
+
+    --secondary: 40 30% 90%;
+    --secondary-foreground: 0 0% 17%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 42 52% 55%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 85%;
+    --input: 40 20% 85%;
+    --ring: 148 60% 26%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 40 33% 96%;
+    --sidebar-foreground: 0 0% 17%;
+    --sidebar-primary: 148 60% 26%;
+    --sidebar-primary-foreground: 40 33% 96%;
+    --sidebar-accent: 40 30% 90%;
+    --sidebar-accent-foreground: 0 0% 17%;
+    --sidebar-border: 40 20% 85%;
+    --sidebar-ring: 148 60% 26%;
+
+    /* Custom tokens */
+    --gold: 42 52% 55%;
+    --gold-light: 42 60% 75%;
+    --cream: 40 33% 96%;
+    --cream-dark: 40 30% 90%;
+    --green-dark: 148 60% 20%;
+    --green-light: 148 40% 40%;
+  }
+
+  .dark {
+    --background: 148 30% 6%;
+    --foreground: 40 33% 96%;
+    --card: 148 30% 8%;
+    --card-foreground: 40 33% 96%;
+    --popover: 148 30% 8%;
+    --popover-foreground: 40 33% 96%;
+    --primary: 148 50% 45%;
+    --primary-foreground: 0 0% 5%;
+    --secondary: 148 20% 15%;
+    --secondary-foreground: 40 33% 96%;
+    --muted: 148 15% 15%;
+    --muted-foreground: 40 15% 65%;
+    --accent: 42 52% 55%;
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 148 15% 18%;
+    --input: 148 15% 18%;
+    --ring: 148 50% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Amiri', serif;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4;
+    font-family: 'Amiri', serif;
+  }
+
+  .hadith-block {
+    @apply border-l-4 border-accent bg-secondary/50 p-4 sm:p-6 rounded-r-lg italic text-muted-foreground my-4 sm:my-6;
+    font-family: 'Amiri', serif;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .gold-divider {
+    @apply w-20 h-1 rounded-full mx-auto my-6;
+    background: linear-gradient(90deg, hsl(var(--accent)), hsl(var(--gold-light)));
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      hsla(var(--primary), 0.7) 0%,
+      hsla(var(--green-dark), 0.85) 100%
+    );
+  }
+
+  .callout-box {
+    @apply bg-primary/10 border border-primary/20 rounded-xl p-6 text-center;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
